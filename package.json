@@ -1,0 +1,20 @@
+{
+  "name": "quatar-proposal",
+  "version": "1.0.0",
+  "description": "Proposal for Map interaction",
+  "source" : ["src/index.js", "src/index.html"],
+  "type": "module",
+  "scripts": {
+    "build-run-maps-local": "parcel src/index.html --dist-dir app/",
+    "build-run-maps-demo": "parcel build src/index.html --dist-dir demo/ --public-url .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "#0K Srinivasan, Vivek Vasudev",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.11.1",
+    "parcel": "^2.7.0",
+    "stats.js": "^0.17.0",
+    "three": "^0.144.0"
+  }
+}

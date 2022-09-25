@@ -1,0 +1,34 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    /* background: radial-gradient(circle at center, #FFE47A, #3D7EAA, 50%); */
+    background: linear-gradient(#EFEFBB, #D4D3DD);
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+
+#map-scene {
+    position: absolute;
+    width: 500px;/*100vw;*/
+    height: 500px;/*100vh;*/
+    top: 0;
+    left: 0;
+}
+
+.overlay{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
